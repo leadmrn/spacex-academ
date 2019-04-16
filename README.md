@@ -1,1 +1,1 @@
-# spacex-academ
+# spacex-academy
