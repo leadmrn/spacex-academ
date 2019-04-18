@@ -1,0 +1,34 @@
+.header{
+  height: 50px;
+  background-color: #2A2D34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo{
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 7px;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin-right: 80px;
+}
+
+.header__rond{
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.header__link{
+  color: white;
+  font-family: "brandon-grotesque";
+  font-size: 14px;
+}
