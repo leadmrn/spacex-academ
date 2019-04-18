@@ -5,3 +5,9 @@ body{
 strong{
   font-weight: bold;
 }
+
+@keyframes move{
+  100%{
+    transform: translateY(28px) rotate(5deg);
+  }
+}

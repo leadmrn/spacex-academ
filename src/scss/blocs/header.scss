@@ -28,7 +28,29 @@
 }
 
 .header__link{
+  margin-top: 5px;
+  position: relative;
   color: white;
   font-family: "brandon-grotesque";
   font-size: 14px;
+  height: 20px;
+  overflow: hidden;
+
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    height: 2px;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: transform 1s;
+  }
+
+  &:hover{
+    &::after{
+      transform: translateX(0);
+    }
+  }
 }
